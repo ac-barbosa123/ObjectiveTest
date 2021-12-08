@@ -27,6 +27,6 @@ v14.17.6
 0.35.3
 
 ## Commands to run project
-npm i
-ng serve
-ng test
+npm i;
+ng serve;
+ng test;

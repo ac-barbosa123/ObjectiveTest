@@ -1,0 +1,79 @@
+.character-thumbail{
+    width: 100px;
+    height: 800px;
+}
+
+
+td {
+    background-color: #FFFFFF;
+    width: 50%;
+    vertical-align: top;
+ }
+ 
+   table {
+     border-collapse: separate;
+     border-spacing: 0 8px;
+     margin-top: -8px;
+     
+   }
+ 
+   .character {
+       width: 60px;
+       height: 60px;
+   }
+ 
+   .character-name{
+     font-weight: bold;
+     margin-top: -7%;
+     margin-left: 11%;
+   }
+ 
+   h2, h4 {
+     color: #555555;
+   }
+ 
+   @media screen and (max-width: 1225px) and (min-width: 1045px) {
+         .priority-5{
+             display:none;
+         }
+     }
+     
+     @media screen and (max-width: 1045px) and (min-width: 835px) {
+         .priority-5{
+             display:none;
+         }
+         .priority-4{
+             display:none;
+         }
+     }
+     
+     @media screen and (max-width: 565px) and (min-width: 300px) {
+         .priority-5{
+             display:none;
+         }
+         .priority-4{
+             display:none;
+         }
+         .priority-3{
+             display:none;
+         }
+     }
+     
+     @media screen and (max-width: 300px) {
+         .priority-5{
+             display:none;
+         }
+         .priority-4{
+             display:none;
+         }
+         .priority-3{
+             display:none;
+         }
+         .priority-2{
+             display:none;
+         }
+     .priority-1{
+             display:none;
+         }
+     
+     }

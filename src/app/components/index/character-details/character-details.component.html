@@ -1,0 +1,16 @@
+<section id="main" class="wrapper style1">
+
+    <div class="container">
+        <a routerLink="/index" class="button icon fa-arrow-left">Voltar a Tela de Personagens</a>
+        <section id="content">
+            <div class="image fit"><img
+                    src="{{characterDetails.thumbnail.path}}.{{characterDetails.thumbnail.extension}}"
+                    class="character-thumbail" /></div>
+            <h3>{{characterDetails.name | uppercase}}</h3>
+            <p><strong>{{characterDetails.description}}</strong></p>
+            <ul *ngFor="let comic of characterDetails.comics.items">
+                        <strong><li><a>{{ comic.name | uppercase }}</a></li></strong>
+                    </ul>
+        </section>
+    </div>
+</section>
